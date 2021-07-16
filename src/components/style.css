@@ -1,0 +1,68 @@
+.hero-image{
+    background-image: url("https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+    width: 100%;
+    height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+   flex-direction: column;  
+   align-items: center;
+   justify-content: center;
+   height: 500px;
+   color: white;
+}
+.header p{
+    width: 60%;
+}
+.header .d-now{
+    padding: 10px 30px;
+    border-radius: 40px;
+    border:none;
+    background-color: rgb(167, 167, 1);
+    color: white;
+}
+.header .Learn-more{
+    padding: 10px 30px;
+    border-radius: 40px;
+    border:none;
+    background-color: transparent;
+    color: rgb(167, 167, 1);
+    border:2px solid rgb(167, 167, 1);
+    transition: all .3s ease-in-out;
+}
+.Learn-more :hover {
+  background-color: white;
+  color: white;
+}
+.d-now :hover{
+    background-color: white;
+    color: white;
+}
+.nav-link{
+    color: white !important;
+}
+.box{
+    padding: 20px ;
+}
+.box img{
+    width: 80px;
+}
+.services{
+    padding :40px 0;
+}
+.logo img{
+    height: 60px;
+}
+.header  img{
+    width: 30px;
+    position: absolute;
+    margin-top: 350px;
+    animation:  mymove 2s infinite;
+}
+@keyframes mymove {
+    from {top: 300px;}
+    to {top: 330px;}
+  }
